@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 400px;
+  height: 400px;
+  background-color: white;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.box-1 {
+  position: relative;
+  height: 270px;
+  width: 500px;
+  background: #e23bfa;
+  background: linear-gradient(
+    90deg,
+    rgba(226, 59, 250, 1) 0%,
+    rgba(77, 42, 134, 1) 100%
+  );
+  border: 5px;
+  border-style: solid;
+  border-color: #7e2ecc;
+  margin-bottom: 40px;
+  border-radius: 30px;
+}
+.insidebox {
+  position: absolute;
+  height: 30px;
+  width: 110px;
+  background-color: grey;
+  color: white;
+  border-style: solid;
+  margin-left: 340px;
+  margin-top: 20px;
+  padding-top: 5px;
+  padding-left: 10px;
+  border-radius: 20px;
+  border-width: 2px;
+  font-size: 20px;
+}
+.insidebox2 {
+  position: absolute;
+  bottom: 20px;
+  right: 40px;
+  background-color: black;
+  color: white;
+  border-style: dashed;
+  border-width: 1px;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 16px;
+  font-weight: normal;
+}
+h1 {
+  position: absolute;
+  left: 170px;
+  top: 65px;
+}
+.back {
+  position: absolute;
+  left: 170px;
+  top: 110px;
+  color: white;
+  font-size: 18px;
+}
+.email {
+  position: absolute;
+  left: 170px;
+  top: 140px;
+  color: hsl(260 60% 66% / 2);
+  font-size: 16px;
+}
+.nummer {
+  position: absolute;
+  left: 170px;
+  top: 170px;
+  color: hsl(260 60% 66% / 2);
+  font-size: 16px;
+}
+.insidecircle {
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  background-color: hsl(272.28deg 71.55% 53.14%);
+  border-radius: 100px;
+  border-style: solid;
+  border-color: hsl(272.45deg 92.45% 79.22%);
+  left: 40px;
+  top: 85px;
+}
+.bokstav {
+  position: absolute;
+  text-align: center;
+  top: 30px;
+  left: 40px;
+  font-size: 40px;
+  font-weight: 100;
+  color: white;
+  font-style: normal;
+}
+
+.box-2 {
+  position: relative;
+  top: 300px;
+  height: 270px;
+  width: 500px;
+  background: HSL(0deg 0% 28.24%);
+  background: linear-gradient(
+    90deg,
+    rgba(72, 72, 72, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  border: 5px;
+  border-style: solid;
+  border-color: #7e2ecc;
+  margin-bottom: 40px;
+  border-radius: 30px;
+}
+.online {
+  position: absolute;
+  height: 30px;
+  width: 90px;
+  background-color: rgb(20, 201, 20);
+  color: white;
+  border-style: solid;
+  margin-left: 360px;
+  margin-top: 20px;
+  padding-top: 5px;
+  padding-left: 10px;
+  border-radius: 20px;
+  border-width: 2px;
+  font-size: 20px;
+}
+.ruta {
+  position: absolute;
+  bottom: 20px;
+  right: 40px;
+  background-color: hsl(212.14deg 56% 9.8%);
+  color: white;
+  border-style: dashed;
+  border-width: 1px;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 16px;
+  font-weight: normal;
+}
+.time {
+  position: absolute;
+  top: 20px;
+  color: white;
+}
+.front {
+  position: absolute;
+  left: 170px;
+  top: 110px;
+  color: white;
+  font-size: 18px;
+}
+.mail {
+  position: absolute;
+  left: 170px;
+  top: 140px;
+  color: hsl(211.05deg 73.08% 69.41%);
+  font-size: 16px;
+}
+.tele {
+  position: absolute;
+  width: 100px;
+  left: 170px;
+  top: 170px;
+  color: hsl(211.05deg 73.08% 69.41%);
+  font-size: 16px;
+}
+.box-4 {
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  background-color: hsl(0deg 0% 35.29%);
+  border-radius: 100px;
+  border-style: solid;
+  border-color: hsl(270deg 3.85% 69.41%);
+  left: 40px;
+  top: 70px;
+}
+.bokstavT {
+  position: absolute;
+  text-align: center;
+  top: 35px;
+  left: 40px;
+  font-size: 40px;
+  font-weight: 100;
+  color: white;
+  font-style: normal;
+}
